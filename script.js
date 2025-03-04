@@ -59,7 +59,7 @@ function createChatBox(html,classes){
 
 function handlechatResponse(userMessage){
     user.message=userMessage
-    let html=`<img src="user.gif" alt="" id="userImage" width="8%">
+    let html=`<img src="user.gif" alt="" id="userImage" width="10%">
 <div class="user-chat-area">
 ${user.message}
 ${user.file.data?`<img src="data:${user.file.mime_type};base64,${user.file.data}" class="chooseimg" />` : ""}
