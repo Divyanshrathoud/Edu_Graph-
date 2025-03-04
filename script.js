@@ -71,7 +71,7 @@ chatContainer.appendChild(userChatBox)
 chatContainer.scrollTo({top:chatContainer.scrollHeight,behavior:"smooth"})
 
 setTimeout(()=>{
-let html=`<img src="ai.png" alt="" id="aiImage" width="10%">
+let html=`<img src="ai.png" alt="" id="aiImage" width="8%">
     <div class="ai-chat-area">
     <img src="Animation - 1741061281009 (1).gif" alt="" class="load" width="50px">
     </div>`
